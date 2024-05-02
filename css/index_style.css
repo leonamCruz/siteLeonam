@@ -20,10 +20,12 @@
 }
 
 #sobre p {
-    padding: 25px;
-    text-align: justify;
+    margin: auto;
+    padding: 10px;
+    max-width: 900px;
     font-size: 1.2em;
     line-height: 1.5;
+    text-align: justify;
 }
 @keyframes glow {
     0% {
@@ -39,5 +41,23 @@
 
 img {
     animation: glow 5s infinite alternate;
-    border-radius: 50%; /* Para tornar a imagem redonda */
+    border-radius: 50%;
+}
+
+#footer_object{
+    margin: 0;
+    padding: 0;
+    height: 100px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+#leonam{
+    color: #3fd3f7;
+}
+#programador{
+    position: relative;
+    color: #a940e7;
+    z-index: 0;
 }
