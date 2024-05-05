@@ -5,6 +5,9 @@
     box-sizing: border-box;
     background: #333;
 }
+body{
+    padding-bottom: 120px;
+}
 #sobre {
     margin-top: -20px;
     color: white;
