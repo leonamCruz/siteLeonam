@@ -13,3 +13,19 @@
     bottom: 0;
     width: 100%;
 }
+
+#cursando{
+    margin-top: 20vh;
+    color:white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1.20em;
+    justify-content: center;
+}
+
+#uninter{
+    margin-top: 25px;
+    background: #001054;
+    border-radius: 45px;
+}
